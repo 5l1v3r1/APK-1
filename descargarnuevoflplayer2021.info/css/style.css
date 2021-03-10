@@ -1,0 +1,61 @@
+body {
+    background: #282828;
+    color: #212121;
+    font: 13px Arial;
+    margin: auto;
+}
+
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+color: #eb0000;
+text-decoration: underline;
+}
+
+.header {
+background: url(../images/head.gif) repeat-x top #6b6b6b;
+height: 84px;
+}
+
+
+.glavnoe {
+background: url(../images/glav.gif) repeat-x top #f5f5f5;
+padding: 20px 5px;
+text-align: center;
+}
+
+.glavnoe h2 {
+font-size: 16px;
+margin: 4px 0;
+display: inline;
+}
+
+.glavnoe h3 {
+font-size: 14px;
+margin: 0;
+}
+
+img.ava {
+max-width: 300px;
+margin: 15px 0;
+}
+
+.copy {
+color: #646464;
+margin-top: 10px;
+}
+
+.ButtonYellow {
+	background: #FFDB19;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFDB19), to(#F7AA00));
+    background: -webkit-linear-gradient(top, #FFDB19, #F7AA00);
+    background: -moz-linear-gradient(top, #FFDB19, #F7AA00);
+    background: -o-linear-gradient(top,#FFDB19, #F7AA00);
+    background: -ms-linear-gradient(top, #FFDB19, #F7AA00);
+    background: linear-gradient(top, #FFDB19, #F7AA00);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#FFDB19', EndColorStr='#F7AA00');
+}
